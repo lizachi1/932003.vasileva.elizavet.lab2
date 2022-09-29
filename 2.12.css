@@ -1,0 +1,33 @@
+div {
+    display: flex;
+    background-color: aqua;
+    border: limegreen solid 2px;
+}
+
+nav {
+    background-color: bisque;
+    box-sizing: border-box;
+    width: 25%;
+    flex-shrink: 0;
+    height: max-content;
+}
+
+nav > ul {
+    margin: 0;
+    padding: 20px 0 20px 40px;
+}
+
+main {
+    width: 75%;
+    background-color: darkgray;
+}
+
+main > p{
+    margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+    div {
+        flex-direction: column;   
+    }
+}

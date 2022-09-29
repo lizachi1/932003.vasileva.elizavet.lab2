@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+.upper__content {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 450px;
+}
+.down_content {
+    margin: 0 auto;
+    width: 450px;
+    padding: 40px;
+    border: 10px solid blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

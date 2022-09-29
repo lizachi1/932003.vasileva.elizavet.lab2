@@ -1,0 +1,50 @@
+div {
+    display: flex;
+    background-color: aqua;
+    border: limegreen solid 2px;
+}
+
+nav {
+    background-color: bisque;
+    box-sizing: border-box;
+    width: 25%;
+    flex-shrink: 0;
+    height: max-content;
+}
+
+nav > ul {
+    margin: 0;
+    padding: 20px 0 20px 40px;
+}
+
+main {
+    background-color: darkgray;
+}
+
+main > p{
+    margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+    div {
+        flex-direction: column;   
+    }
+    nav {
+        padding-top: 15px;
+        width: 100%;
+        height: 50px;
+        background-color: aqua;
+    }
+    nav > ul {
+        display: flex;
+        padding: 0;
+        background-color: bisque;
+        list-style-type: none;
+    }
+    ul > li {
+        margin-left: 5px;
+    }
+    ul li:first-child {
+        margin-left: 50px;
+    }
+}

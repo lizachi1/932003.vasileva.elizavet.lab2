@@ -1,0 +1,75 @@
+body {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.static__div {
+    position: static;
+    width: 120px;
+    height: 80px;
+    background: blueviolet;
+}
+
+.relative__div__x {
+    position: relative;
+    width: 120px;
+    height: 80px;
+    background: darkred;
+}
+
+.relative__div__y {
+    position: relative;
+    top: -40px;
+    left: 20px;
+    width: 120px;
+    height: 80px;
+    background: peru;
+}
+
+.relative__div__z {
+    position: relative;
+    width: 520px;
+    height: 380px;
+    background: indianred;
+}
+.absolute__div {
+    position: absolute;
+    width: 260px;
+    height: 150px;
+    top: 370px;
+    left: 260px;
+    background: indigo;
+}
+.fixed__div {
+    position: fixed;
+    width: 120px;
+    height: 80px;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: forestgreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+body {
+    color: white;
+}
+.upper__content {
+    margin: 0 auto;
+    width: 450px;
+    background: green;
+}
+.down_content {
+    margin: 0 auto;
+    width: 450px;
+    padding: 50px;
+    border: 20px solid;
+    background: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
